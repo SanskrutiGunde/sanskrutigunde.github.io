@@ -37,3 +37,25 @@ gsap.from(".square-anim", {
   duration: 1,
   ease: Back.easeOut.config(1.7),
 });
+
+gsap.from(".transition2", {
+  scrollTrigger: {
+    trigger: ".transition2",
+    start: "top bottom",
+  },
+  y: 50,
+  opacity: 0,
+  duration: 1.2,
+  stagger: 0.3,
+});
+
+gsap.from(".transition3", {
+  scrollTrigger: {
+    trigger: ".transition3",
+    start: "top center",
+  },
+  y: 50,
+  opacity: 0,
+  duration: 1.2,
+  stagger: 0.6,
+});
