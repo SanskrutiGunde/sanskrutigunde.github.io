@@ -180,6 +180,10 @@ section {
   margin-bottom: 2em;
 }
 
+.right {
+  border-radius: 1em;
+}
+
 @media only screen and (min-width: 800px) {
   .featured,
   .portfolio {
@@ -290,6 +294,11 @@ section {
   .portfolio img {
     float: right;
     max-width: 500px;
+  }
+  .portfolio-left {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
