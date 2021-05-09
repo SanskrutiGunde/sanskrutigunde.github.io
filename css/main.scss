@@ -162,6 +162,9 @@ section {
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+  box-shadow: 10px 13px 34px -11px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 10px 13px 34px -11px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 13px 34px -11px rgba(0, 0, 0, 0.63);
 }
 
 .right {
