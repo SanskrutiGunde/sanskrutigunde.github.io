@@ -267,7 +267,7 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 7em;
+    width: 12em;
     float: right;
   }
   .social-header ul img {
